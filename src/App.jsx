@@ -14,13 +14,13 @@ const App = () => {
   return (
    <>
    <Navbar/>
-   <Home/>
-   <Courses/>
-   <Instructor/>
-   <About/>
+   <Home NavLink={true}/>
+   <Courses NavLink={true}/>
+   <Instructor NavLink={true}/>
+   <About NavLink={true}/>
    <Footer/>
-   {/*<Login/>*/}
-  {/* <Signup/>*/}
+{  /* <Login/>
+   <Signup/> */}
    </>
   )
 }

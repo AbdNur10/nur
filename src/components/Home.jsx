@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import eduu from "../assets/eduuu.png";
+import { GiBookshelf } from "react-icons/gi";
 
 const Home = () => {
   return (
@@ -39,10 +40,9 @@ const Home = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
-        <img
-          src={eduu}
-          alt="Learning illustration"
-          className="rounded-lg shadow-lg max-w-full h-auto"
+        <GiBookshelf
+         
+          className="rounded-lg shadow-lg max-w-full h-auto w-[400px]"
         />
       </motion.div>
     </div>
